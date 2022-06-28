@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.JoinPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.JoinContainer{
+   
+   
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#joinpage__icon{
+    color: var(--color-primary);
+    height: 10rem;
+    width: auto;
+    border: 1rem solid var(--color-primary);
+    border-radius: 100%;
+    padding: 1rem;
+}
+.JoinContainer > h1{
+    color: var(--color-white);
+    font-size: 2.5vmax;
+    width: 25vmax;
+    border-bottom: 0.2vmax solid var(--color-light);
+    text-align: center;
+    padding: 1vmax;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+#joinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
+.joinbtn{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    color: var(--color-light);
+    font-family: "Roboto";
+    outline: none;
+    font-size: 1.2vmax;
+   background-color: var(--color-primary);
+   box-sizing: border-box;
+   transition: all 0.3s;
+   cursor: pointer;
+   border-radius: 2rem;
+}
+.joinbtn:hover{
+    background-color: var(--color-primary-variant);
+}

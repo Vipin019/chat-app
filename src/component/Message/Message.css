@@ -1,0 +1,43 @@
+.messageBox{
+   margin: .3rem;
+   padding: .3rem;
+    border-radius: .7rem;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+    float: right;
+    background-color: var(--color-primary);
+    color: white;
+    text-align: right;
+    margin-left: 7%;
+}
+
+.left{
+    float: left;
+    text-align: left;
+    background-color: var(--color-primary-variant);
+    margin-right: 7%;
+    
+}
+
+.userMessage{
+    padding-top: 0rem;
+    margin-top: 0rem;
+    padding-bottom: .2rem;
+    margin-bottom: .2rem;
+    width: 90%;
+}
+.userName{
+    background-color: var(--color-bg-variant);
+    border-radius: 2rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    padding-top: .1rem;
+    margin-top: .1rem;
+}

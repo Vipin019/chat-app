@@ -1,0 +1,80 @@
+.chatPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-color: var(--color-bg);
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    background-color: var(--color-bg-variant);
+    height: 8%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header>h2{
+    font-size: 1.5vmax;
+    color: var(--color-primary);
+    margin: 2.5vmax;
+}
+
+#chatPage__phonecall{
+    
+    margin-right: 2.5vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+    border: .01rem solid var(--color-primary);
+    border-radius: 100%;
+    color: var(--color-primary);
+    height: 2rem;
+    padding: .1rem;
+    width: auto;
+}
+
+
+.chatBox{
+ height: 84%;
+ box-sizing: border-box;
+}
+
+.inputBox{
+    height: 8%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput{
+    width: 95%;
+    border: none;
+    padding: 2vmax;
+    box-sizing: border-box;
+    background-color: var(--color-bg-variant);
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2vmax;
+    border-radius: 2rem;
+    color: var(--color-light);
+}
+
+
+.sendBtn{
+    background-color: var(--color-bg-variant);
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    width: 5%;
+}
+#inputBox__icon{
+    color: var(--color-light);
+    font-size: 2rem;
+}
+
+
