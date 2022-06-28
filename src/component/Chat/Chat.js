@@ -72,7 +72,7 @@ const Chat = () => {
                     {messages.map((item, i) => <Message user={item.id === id ? '' : item.user} message={item.message} classs={item.id === id ? 'right' : 'left'} />)}
                 </ReactScrollToBottom>
                 <div className="inputBox">
-                    <input onKeyPress={(event) => event.key === 'Enter' && event.target.value!="" ? send() : null} type="text" id="chatInput" />
+                    <input onKeyPress={(event) => event.key === 'Enter' && event.target.value!=="" ? send() : null} type="text" id="chatInput" />
                     <button onClick={send} className="sendBtn"><IoMdSend id='inputBox__icon'/></button>
                 </div>
             </div>
