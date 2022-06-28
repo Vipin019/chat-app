@@ -3,9 +3,8 @@ body{
     background-color: var(--color-bg);
 }
 
-
-@media (max-aspect-ratio: 7/10) {
-
+/* =====================MEDIA QUERIES (MEDIUM DEVICIES)================== */
+@media screen and (max-width: 1024px){
     .JoinPage{
        
       
@@ -19,79 +18,60 @@ body{
        
     }
 
-    .JoinContainer > img{
-        width: 30vw !important;
-    }
+    
     .JoinContainer > h1{
       
-        font-size: 6vw !important;
-        width: 65vw !important;
+        font-size: 4vw !important;
+        width: 50vw !important;
         border-bottom: 0.6vw solid white !important;
         padding: 3vw !important;
        
     }
 
     #joinInput{
-        width: 65vw !important;
-        padding: 4vw !important;
+        width: 50vw !important;
+        padding: 3vw !important;
        
-        font-size: 5vw !important;
-        margin:5vw !important;
+        font-size: 2vw !important;
+        margin:4vw !important;
        
     }
     .joinbtn{
-        width: 65vw !important;
-        padding: 4vw !important;
-        
-        font-size: 5vw !important;
-      
+        width: 50vw !important;
+        padding: 3vw !important;
+        font-size: 2vw !important;
     }
 
-    .chatContainer{
-        background-color: white;
-        height: 100% !important;
-        width: 100% !important; 
+    #chatInput{
+        width: 85% !important;
+        font-size: 1rem !important;
     }
-    .header{
-       
-        height: 10% !important;
+
+    .sendBtn{
+        width: 10% !important;
     }
+
+    .messageBox{
+         font-size: 1rem !important;
+     }
+     .inputBox{
+        height: 2.7rem !important;
+        
+    }
+    
+  }
+  /* =====================MEDIA QUERIES (SMALL DEVICIES)================== */
+  @media screen and (max-width: 600px){
+
     .header>h2{
-        margin: 8vw !important;
-        font-size: 5vw !important;
-    }
-    
-    .header img{
-        
-        margin: 6vw !important;
-        transform: scale(2) !important;
-    }
-    .header>img:hover{
-        transform: scale(3.2) !important;
-    }
-    .chatBox{
-
-        height: 80% !important;
-       }
-
-       .inputBox{
-    
-        height: 10% !important;
-       
+        font-size: 1.5rem !important;
     }
     #chatInput{
-   
-        padding: 4vw !important;
-        font-size: 4vw !important;
-    }
-    .messageBox{
-   
-       
-        padding: 3vw !important;
-        margin: 3vw !important;
-        border-radius: 1.5vw !important;
-        font-size: 3.7vw !important;
+        width: 80% !important;
+        /* font-size: 1rem !important; */
     }
 
-
+    .sendBtn{
+        width: 16% !important;
+    }
   }
